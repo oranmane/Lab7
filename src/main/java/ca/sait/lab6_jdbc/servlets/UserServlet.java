@@ -1,9 +1,9 @@
 package ca.sait.lab6_jdbc.servlets;
 
-import ca.sait.lab6_jdbc.models.Role;
-import ca.sait.lab6_jdbc.models.User;
-import ca.sait.lab6_jdbc.services.RoleService;
-import ca.sait.lab6_jdbc.services.UserService;
+import ca.sait.lab7.models.Role;
+import ca.sait.lab7.models.User;
+import ca.sait.lab7.services.RoleService;
+import ca.sait.lab7.services.UserService;
 import java.io.*;
 import java.util.List;
 import java.util.logging.Level;
@@ -98,7 +98,7 @@ public class UserServlet extends HttpServlet {
 
                 request.setAttribute("input_firstname", users.getFirstName());
                 request.setAttribute("input_lastname", users.getLastName());
-                request.setAttribute("input_role", roles.getId());
+                request.setAttribute("input_role", roles.getRoleId());
             
             } catch (Exception ex) {
                 Logger.getLogger(UserServlet.class.getName()).log(Level.SEVERE, null, ex);

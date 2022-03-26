@@ -1,8 +1,8 @@
-package ca.sait.lab6_jdbc.services;
+package ca.sait.lab7.services;
 
-import ca.sait.lab6_jdbc.dataaccess.UserDB;
-import ca.sait.lab6_jdbc.models.Role;
-import ca.sait.lab6_jdbc.models.User;
+import ca.sait.lab7.dataaccess.UserDB;
+import ca.sait.lab7.models.Role;
+import ca.sait.lab7.models.User;
 import java.util.List;
 
 /**
