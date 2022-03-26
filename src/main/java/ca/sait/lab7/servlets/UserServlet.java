@@ -1,4 +1,4 @@
-package ca.sait.lab6_jdbc.servlets;
+package ca.sait.lab7.servlets;
 
 import ca.sait.lab7.models.Role;
 import ca.sait.lab7.models.User;
